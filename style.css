@@ -1,40 +1,35 @@
 
+
 body{
   background: #f6f9fd;
 }
-.btn {
-  background-color: yellow;
-  color: black;
-  text-align: center;
-  font-size: 13px;
-}
 
 h1 {
-  position: absolute;
+  position: relative;
   color: #346eda;
-  left: 620px;
-  top: 90px;
+  left: 35%;
+  top: 10%;
 }
 h3 {
-  position: absolute;
+  position: relative;
   color: #346eda;
-  left: 760px;
-  top: 130px;
+  left: 40%;
+  top: 15%;
 }
 h4 {
-  position: absolute;
+  position: relative;
   color: rgba(34, 87, 185, 0.3);
-  left: 730px;
-  top: 150px;
+  left: 40%;
+  top: 20%;
 }
 .flashCardButtons{
   display: flex;
   flex-wrap:  wrap-reverse;
   width: 300px;
   height: 40px;
-  bottom: 300px;
-  right: 850px;
-  position: absolute;
+  left: 1%;
+  bottom: 10%;
+  position: relative;
   margin: auto;
 }
 .flashCardButtons button{
@@ -46,16 +41,16 @@ h4 {
 }
 
 .cardHolder{
-  position: fixed;
+  position: relative;
   transform: translate(-15%, 0%);
   height: 350px;
-  bottom: 350px;
-  right: 1000px;
+  right: 10%;
+  top: 25%;
   width: 300px;
   margin: auto;
 }
 .card{
-  position: absolute;
+  position: relative;
   max-width: 100%;
 }
 .card div{
